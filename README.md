@@ -12,4 +12,21 @@ But beware: neighboring islands are home to savage males who pillage and plunder
 
 Your goal is to defeat the male boss of the Warrior Clan that threatens your village's survival. This will allow you to protect your people, ensure their prosperity, and restore balance to your community.
 
+**Gameplay Overview:**
+
+* Manage your village's resources, including food, flint, and stone
+* Recruit warriors and heroes to defend your village against Warrior Clans
+* Breed the strongest heroes with the highest females in your village to produce a superior king
+* Defeat the male boss of the Warrior Clan to ensure your village's survival and prosperity
+* Balance your community's gender ratio by recognizing the importance of both male and female energies
+
+**Game Mechanics:**
+
+* Resource gathering and management
+* Hero recruitment and training
+* Breeding system for producing kings
+* Brutal barbarian system similar to ancient Sparta
+* Warrior Clan raids and defense mechanics
+* Balanced gameplay with a focus on strategy, resource management, and social dynamics
+
 
