@@ -1,5 +1,6 @@
 import random
 import menu
+import menu
 
 class Character:
     def __init__(self, card_type, health, strength, defense, intelligence, special_ability):
