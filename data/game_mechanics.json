@@ -1,0 +1,154 @@
+{
+  "combat_system": {
+    "attack_calculation": {
+      "base_formula": "attacker_str + weapon_bonus + crystal_bonus",
+      "critical_chance": 0.15,
+      "critical_multiplier": 1.5,
+      "defense_reduction": "target_def * 0.5"
+    },
+    "raid_system": {
+      "tier_1": {
+        "required_strength": 10,
+        "reward_multiplier": 1.0,
+        "captive_chance": 0.3
+      },
+      "tier_2": {
+        "required_strength": 20,
+        "reward_multiplier": 1.5,
+        "captive_chance": 0.4
+      },
+      "tier_3": {
+        "required_strength": 30,
+        "reward_multiplier": 2.0,
+        "captive_chance": 0.5
+      }
+    },
+    "status_effects": {
+      "stunned": {
+        "duration": 2,
+        "effect": "Cannot attack"
+      },
+      "wounded": {
+        "duration": 3,
+        "effect": "-25% STR"
+      },
+      "inspired": {
+        "duration": 2,
+        "effect": "+25% STR"
+      }
+    }
+  },
+  "progression_system": {
+    "experience_gain": {
+      "combat_victory": 100,
+      "raid_success": 200,
+      "resource_gathering": 50
+    },
+    "level_scaling": {
+      "exp_multiplier": 1.5,
+      "stat_increase": {
+        "health": 2,
+        "strength": 1,
+        "defense": 1
+      }
+    },
+    "skill_trees": {
+      "warrior": [
+        {
+          "level": 1,
+          "skill": "Power Strike",
+          "effect": "+20% damage"
+        },
+        {
+          "level": 5,
+          "skill": "Battle Cry",
+          "effect": "Team buff"
+        },
+        {
+          "level": 10,
+          "skill": "Berserker",
+          "effect": "Double damage"
+        }
+      ],
+      "hero": [
+        {
+          "level": 1,
+          "skill": "Leadership",
+          "effect": "Team exp bonus"
+        },
+        {
+          "level": 5,
+          "skill": "Rally",
+          "effect": "Prevent retreat"
+        },
+        {
+          "level": 10,
+          "skill": "Heroic Stand",
+          "effect": "Team invulnerable"
+        }
+      ]
+    }
+  },
+  "resource_system": {
+    "gathering_rates": {
+      "wood": {
+        "base_rate": 10,
+        "tool_bonus": 5
+      },
+      "stone": {
+        "base_rate": 8,
+        "tool_bonus": 4
+      },
+      "iron": {
+        "base_rate": 5,
+        "tool_bonus": 3
+      }
+    },
+    "processing": {
+      "plank": {
+        "input": {
+          "wood": 2
+        },
+        "output": 1
+      },
+      "iron_ingot": {
+        "input": {
+          "iron_ore": 2
+        },
+        "output": 1
+      },
+      "brick": {
+        "input": {
+          "stone": 2
+        },
+        "output": 1
+      }
+    }
+  },
+  "building_system": {
+    "house": {
+      "cost": {
+        "wood": 4,
+        "stone": 2
+      },
+      "build_time": 2,
+      "capacity": 4
+    },
+    "barracks": {
+      "cost": {
+        "wood": 6,
+        "stone": 4
+      },
+      "build_time": 3,
+      "training_bonus": 0.2
+    },
+    "workshop": {
+      "cost": {
+        "wood": 5,
+        "stone": 3
+      },
+      "build_time": 2,
+      "crafting_bonus": 0.25
+    }
+  }
+}

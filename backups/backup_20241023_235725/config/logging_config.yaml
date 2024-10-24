@@ -1,0 +1,18 @@
+formatters:
+  standard:
+    format: '%(asctime)s [%(levelname)s] %(name)s: %(message)s'
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: standard
+  file:
+    class: logging.FileHandler
+    filename: kingmaker.log
+    formatter: standard
+loggers:
+  kingmaker:
+    handlers:
+    - file
+    - console
+    level: INFO
+version: 1
