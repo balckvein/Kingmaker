@@ -1,0 +1,18 @@
+combat:
+  base_damage: 10
+  critical_multiplier: 1.5
+  defense_reduction: 0.5
+economy:
+  market_fluctuation: 0.2
+  max_price: 100
+  min_price: 1
+game:
+  difficulty_levels:
+    easy: 0.8
+    hard: 1.2
+    normal: 1.0
+  max_players: 4
+  starting_resources:
+    gold: 100
+    stone: 30
+    wood: 50
